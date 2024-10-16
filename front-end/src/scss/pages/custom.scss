@@ -1,0 +1,111 @@
+.custom-pages {
+    margin: 1px;
+}
+
+.button-container {
+    background-color: var(--Color-bg-surface-surface-tertiary, #F3F3F3);
+    display: grid;
+    gap: 10px;
+    align-items: end;
+
+    .Polaris-ButtonGroup {
+        display: grid;
+        text-align: end;
+    }
+}
+
+.component-one {
+    width: 410 px;
+    background-color: white;
+}
+
+.component-two {
+    border: 1px solid #ccc;
+    height: 821px;
+
+
+    .container {
+        margin: 10px 20px;
+
+        /* Cột */
+        .cart {
+            .header-two {
+                height: 66px;
+                border-bottom: 1px solid #ccc;
+                border-top: 1px solid #ccc;
+
+            }
+
+            .cart-container {
+                max-width: 600px;
+                margin: 0 auto;
+                padding: 20px;
+                border-bottom: 1px solid #ccc;
+
+                .cart-title {
+                    font-weight: bold;
+                    margin-bottom: 20px;
+                    font-size: 24px;
+                }
+
+                .order {
+                    margin-bottom: 15px;
+                    padding: 10px;
+                    border: 1px solid #ccc;
+                    border-radius: 4px;
+                    background-color: #fff;
+
+                    .order-details {
+                        padding: 10px;
+                    }
+                }
+            }
+        }
+
+
+    }
+}
+
+.discount-code {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+    margin-right: 20px;
+    margin: 0 auto;
+
+    .Polaris-TextField {
+        margin-right: 10px;
+        /* Khoảng cách giữa TextField và Button */
+    }
+
+    .Polaris-Button {
+        background-color: #007bff;
+        color: white;
+        border-radius: 4px;
+        padding: 10px 15px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+        border: none !important;
+        width: var(--button-width) !important;
+
+        &:hover {
+            background-color: #0056b3;
+        }
+    }
+}
+
+.toggle {
+    padding: 10px 20px;
+    border-bottom: 1px solid #ccc;
+
+    .header-toggle {
+        display: 'flex';
+        justify-content: 'space-between';
+        align-items: 'center';
+
+        .p {
+            margin: 0;
+            font-weight: 'bold';
+        }
+    }
+}
